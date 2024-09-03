@@ -85,6 +85,7 @@ function App() {
   };
 
   const updateIssue = async (e) => {
+    e.preventDefault();
     if (!selected) return alert("No issue selected");
     const request = await fetch(issuesUrl, {
       method: "PUT",
