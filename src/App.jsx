@@ -151,10 +151,10 @@ function App() {
           <div className="px-5">
             <h3 className="text-3xl">Issues</h3>
             <div className="overflow-x-scroll">
-              <table>
+              <table className="min-w-full">
                 <thead>
                   <tr>
-                    <th className="min-w-64">#</th>
+                    <th className="min-w-64 text-left">#</th>
                     <th className="text-left min-w-64">Issue</th>
                     <th></th>
                   </tr>
